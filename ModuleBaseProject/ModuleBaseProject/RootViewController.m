@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     UIImage *image = [UIImage createImageWithColor:[UIColor whiteColor]];
     // Do any additional setup after loading the view.
 }
