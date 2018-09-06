@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RJBModuleBase"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "this is BaseModule for my all project."
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/raojunbo/ModuleBaseProject.git", :tag => "v#{s.version}"}
+  s.source       = { :git => "https://github.com/raojunbo/ModuleBaseProject.git", :tag => s.version}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
